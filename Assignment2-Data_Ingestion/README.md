@@ -1,5 +1,6 @@
 Data Ingestion Pipeline using Docker Containers on Lambda using ECR, EventBridge and S3
 
+![image](https://user-images.githubusercontent.com/59785209/128604936-d560422c-d67c-4db8-b3f6-b6fa838476f6.png)
 
 Data Pipeline key Steps-
 
