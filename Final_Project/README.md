@@ -28,14 +28,20 @@ POSTMAN
 
 2- **Deploy Swagger to Cloud**
 
-1-Upload Zip File to S3
-2- Create AWS Lambda
-3- Upload the zip file from S3 to the created function.
-4- Update Handler to app.main.handler
-5-Test FastAPI Lambda by changing test event-
+Upload Zip File to S3
+
+Create AWS Lambda
+
+Upload the zip file from S3 to the created function.
+
+Update Handler to app.main.handler
+
+Test FastAPI Lambda by changing test event-
 ![image](https://user-images.githubusercontent.com/59785209/130325784-314f85a7-66f9-420b-baf4-d01d59b66a9a.png)
-6- Create API Gateway, with resources and required methods.
-7- Deploy Lambda Proxy API, for the endpoint to be public
+
+Create API Gateway, with resources and required methods.
+
+Deploy Lambda Proxy API, for the endpoint to be public
 
 Finally We Created a FastAPI application and converted it to an AWS Lambda. Then we setup API Gateway to route all requests to our Lambda proxy
 ![image](https://user-images.githubusercontent.com/59785209/130325867-291d13d7-6c49-45dc-a4d3-af759d3aa1d2.png)
@@ -62,13 +68,19 @@ Created python file to do the Inference of Nowcast and Synrad Data locally.
 4- **Deploying Streamlit app to EC2 instance**
 EC2 is an elastic cloud compute that acts as a virtual server that operate in the cloud. Let us see the steps of deploying our streamlit app.
  
-STEPS
-1.Create An EC2 Instance on AWS
-2.Configure Our Custom TCP port to 8501/02
-3.SSH into Our Instance/AMI
-4.Setup our python environment and run
-5.Keeping the App Continuously Running
-6.Configure a custom domain name
+**STEPS**
+
+Create An EC2 Instance on AWS
+
+Configure Our Custom TCP port to 8501/02
+
+SSH into Our Instance/AMI
+
+Setup our python environment and run
+
+Keeping the App Continuously Running
+
+Configure a custom domain name
 
 ![image](https://user-images.githubusercontent.com/59785209/130325981-978da296-d384-47ef-aa1c-f219dc52b3d7.png)
 
