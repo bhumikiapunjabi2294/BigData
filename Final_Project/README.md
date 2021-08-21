@@ -1,6 +1,6 @@
 **SEVIR Dataset- Data as a Service- Swagger and Streamlit Integration**
 
-**Implemented Serverless FastAPI with AWS Lambda and API Gateway to make it availabe on Cloud**
+1- **Implemented Serverless FastAPI with AWS Lambda and API Gateway to make it availabe on Cloud**
 
 Created a FastAPI application and converted it to an AWS Lambda. Setup API Gateway to route all requests to Lambda proxy and deployed Lambda Proxy API
 Finally deployed the API in order for the endpoint to be public.
@@ -26,7 +26,8 @@ Testing endpoint by clicking on the GET and POST route and then click to execute
 SWAGGER
 POSTMAN
 
-**Deploy Swagger to Cloud**
+2- **Deploy Swagger to Cloud**
+
 1-Upload Zip File to S3
 2- Create AWS Lambda
 3- Upload the zip file from S3 to the created function.
@@ -50,12 +51,15 @@ Finally We Created a FastAPI application and converted it to an AWS Lambda. Then
 
 **This way we can get Nowcast and Synrad Output Data at provided Index**
 
-**Streamlit Integration**
+
+3- **Streamlit Integration**
+
+
 Created python file to do the Inference of Nowcast and Synrad Data locally.
 ![image](https://user-images.githubusercontent.com/59785209/130325946-c627a757-804a-4a6f-a632-f6207673fd34.png)
 
 
-**Deploying Streamlit app to EC2 instance**
+4- **Deploying Streamlit app to EC2 instance**
 EC2 is an elastic cloud compute that acts as a virtual server that operate in the cloud. Let us see the steps of deploying our streamlit app.
  
 STEPS
