@@ -68,4 +68,8 @@ STEPS
 
 ![image](https://user-images.githubusercontent.com/59785209/130325988-18b961e4-01f1-4c64-b7df-f7c8019a1a71.png)
 
+Lastly install **tmux** (sudo yum install tmux) on the running ec2-user and create new window using cmd
 
+tmux a -s mywindow
+
+This way the app is hosted even after the terminal is closed, so this works like AWS
