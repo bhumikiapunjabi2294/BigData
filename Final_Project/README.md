@@ -5,6 +5,8 @@ I-  **Implemented Serverless FastAPI with AWS Lambda and API Gateway to make it 
 Created a FastAPI application and converted it to an AWS Lambda. Setup API Gateway to route all requests to Lambda proxy and deployed Lambda Proxy API
 Finally deployed the API in order for the endpoint to be public.
 
+![image](https://user-images.githubusercontent.com/59785209/130328030-d9b124d5-de94-4931-9cc0-40273483e820.png)
+
 The Serverless FastAPI will be ran on an AWS Lambda by using Mangum and AWS API Gateway will handle routing all requests to the Lambda.
 
 API Gateway uses wildcard for an endpoint and redirect to the FastAPI Lambda and internally route the request accordingly. This way the only cost incurred is whenever there is a request made to the API.
