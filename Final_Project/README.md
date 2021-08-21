@@ -48,6 +48,8 @@ Finally We Created a FastAPI application and converted it to an AWS Lambda. Then
 
 ![image](https://user-images.githubusercontent.com/59785209/130325455-16c5a4d1-ac51-4b3a-82bc-9564b4871965.png)
 
+**This way we can get Nowcast and Synrad Output Data at provided Index**
+
 **Streamlit Integration**
 Created python file to do the Inference of Nowcast and Synrad Data locally.
 ![image](https://user-images.githubusercontent.com/59785209/130325946-c627a757-804a-4a6f-a632-f6207673fd34.png)
